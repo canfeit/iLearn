@@ -1,0 +1,16 @@
+{
+  "name": "ilearn",
+  "version": "0.0.1",
+  "description": "Developer's Basics Handbook",
+  "keywords": ["learn","study","git","vs code"],
+  "author": "wangjianhui <wangjianhui@herebookstore.com> (https://github.com/canfeit/canfeit/blob/master/README.md)",
+  "homepage": "https://github.com/canfeit/ilearn/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canfeit/ilearn.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canfeit/canfeit/issues"
+  }
+}
