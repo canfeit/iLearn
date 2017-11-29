@@ -41,8 +41,9 @@ Issue #1, #2, #3
 
 # Git 操作
 ```bash
-git checkout . & git clean -xdf #撤销所有未暂存修改并清理未被git管理的文件
-git reset --hard & git clean -xdf #撤销所有已暂存修改并清理未被git管理的文件
+git checkout . #撤销所有未暂存修改
+git reset --hard #撤销所有已暂存修改
+git clean -xdf #清理未被git管理的文件
 #加tag
 git tag -a v1 -m 'version 1'
 git push origin --tags
