@@ -58,7 +58,7 @@ git remote set-url upstream https://github.com/DXCChina/pms.git
 git branch -a
 # 查看远程仓库地址
 git remote -v
-# 从源仓库获取更新
+# 从 upstream 源仓库获取更新
 git fetch upstream
 # 合并源仓库更新
 git merge --no-ff upstream/master
