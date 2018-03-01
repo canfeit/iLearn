@@ -1,4 +1,4 @@
-## commit 规范
+﻿## commit 规范
 ```
 <type>:空格<subject>
 // 空一行
@@ -54,12 +54,12 @@ git remote add upstream https://github.com/DXC/pms.git
 git remote set-url upstream https://github.com/DXCChina/pms.git
 # 删除源仓库
 # git remote rm <repository>
-# 查看所有分支列表
-git branch -a
 # 查看远程仓库地址
 git remote -v
 # 从 upstream 源仓库获取更新
 git fetch upstream
+# 查看所有分支列表
+git branch -a
 # 合并源仓库更新
 git merge --no-ff upstream/master
 # 向源仓库推送更新:在 github.com 发起 pull request
