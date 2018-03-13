@@ -53,5 +53,9 @@ npm i -g yarn
 yarn global bin的输出加入path环境变量
 yarn global add yarn
 npm uninstall -g yarn
-yarn global add cnpm 
+yarn global add cnpm
+# On Windows
+npm install --global --production windows-build-tools
 ```
+* [rustup.exe](https://win.rustup.rs/)
+* rustup.sh `curl https://sh.rustup.rs -sSf | sh`
