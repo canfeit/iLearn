@@ -1,11 +1,12 @@
 * [Chrome DEV](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
 * [git](https://git-scm.com/downloads)
 * [nvm](https://github.com/creationix/nvm) [nvm-win](https://github.com/coreybutler/nvm-windows)
+* [jdk](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [360 Driver exe](https://dl.360safe.com/drvmgr/360DrvMgrInstaller_beta.exe)
 * [lantern-win exe](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
   [lantern-mac dmg](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 * [Tencent SoftMgr](http://soft.qq.com/)
- * tim,wechat
+  * tim,wechat
 * Ubuntu on Windows in Microsoft Store
 ```bash
 # Windows
@@ -44,7 +45,7 @@ deb https://mirrors.163.com/ubuntu/ xenial-security main restricted universe mul
 sudo apt-get update
 sudo apt-get upgrade
 sudo do-release-upgrade
-export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node/
+echo 'export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node' >> ~/.bashrc
 nvm install node
 
 npm config set registry https://registry.npm.taobao.org
