@@ -1,12 +1,12 @@
-* [Chrome DEV](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
-* [git](https://git-scm.com/downloads)
-* [nvm](https://github.com/creationix/nvm) [nvm-win](https://github.com/coreybutler/nvm-windows)
-* [jdk](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [360 Driver exe](https://dl.360safe.com/drvmgr/360DrvMgrInstaller_beta.exe)
-* [lantern-win exe](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
-  [lantern-mac dmg](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
-* [Tencent SoftMgr](http://soft.qq.com/)
-  * tim,wechat
+* [Chrome dev](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
+* [Git](https://git-scm.com/downloads)
+* [NVM](https://github.com/creationix/nvm) [nvm-win](https://github.com/coreybutler/nvm-windows)
+* [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [360 Driver.exe](https://dl.360safe.com/drvmgr/360DrvMgrInstaller_beta.exe)
+* [lantern-win.exe](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
+  [lantern-mac.dmg](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
+* [TIM](http://office.qq.com/download.html)
+* [WeChat](https://weixin.qq.com)
 * Ubuntu on Windows in Microsoft Store
 ```bash
 # Windows
