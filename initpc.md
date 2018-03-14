@@ -8,6 +8,7 @@
 * [TIM](http://office.qq.com/download.html)
 * [WeChat](https://weixin.qq.com)
 * [MiCloud](https://i.mi.com/static2?filename=MicloudWebStatic/res/home/mi-lab.htm&locale=zh_CN#3)
+* [GitBook](http://downloads.editor.gitbook.com)
 * Ubuntu on Windows in Microsoft Store
 ## Node.JS
 ```bash
