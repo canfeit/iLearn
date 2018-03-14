@@ -9,6 +9,7 @@
 * [WeChat](https://weixin.qq.com)
 * [MiCloud](https://i.mi.com/static2?filename=MicloudWebStatic/res/home/mi-lab.htm&locale=zh_CN#3)
 * Ubuntu on Windows in Microsoft Store
+## Node.JS
 ```bash
 # Windows
 nvm node_mirror https://npm.taobao.org/mirrors/node/
@@ -58,5 +59,29 @@ yarn global add cnpm
 # On Windows
 npm install --global --production windows-build-tools
 ```
+## Rust Lang
+* 配置 rustup 中国镜像源
+```bash
+# 环境变量
+export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+```
 * [rustup.exe](https://win.rustup.rs/)
 * rustup.sh `curl https://sh.rustup.rs -sSf | sh`
+* 配置 Rust Crates 镜像
+```
+vi $HOME/.cargo/config
+
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
+replace-with = 'ustc'
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+```
+* 添加 nightly
+```
+rustup install nightly
+rustup default nightly
+rustup update
+rustup show
+```
