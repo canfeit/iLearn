@@ -83,9 +83,12 @@ replace-with = 'ustc'
 registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 ```
 * 添加 nightly
-```
+```bash
 rustup install nightly
 rustup default nightly
 rustup update
 rustup show
+```
+```bash
+rustup component add rustfmt-preview
 ```
