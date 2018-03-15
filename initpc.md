@@ -10,6 +10,7 @@
 * [MiCloud](https://i.mi.com/static2?filename=MicloudWebStatic/res/home/mi-lab.htm&locale=zh_CN#3)
 * [GitBook](http://downloads.editor.gitbook.com)
 * [LLVM-Clang](http://releases.llvm.org/download.html)
+* [Visual Studio Code](https://code.visualstudio.com/Download)
 * [Visual Studio](https://www.visualstudio.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community)
 * Ubuntu on Windows in Microsoft Store
 ## Node.JS
