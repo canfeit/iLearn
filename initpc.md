@@ -60,6 +60,7 @@ yarn global add yarn
 npm uninstall -g yarn
 yarn global add cnpm
 yarn global add node-gyp
+node-gyp install --dist-url=https://npm.taobao.org/mirrors/node
 ```
 ## Rust Lang
 * 配置 rustup 中国镜像源
