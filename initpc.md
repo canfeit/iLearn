@@ -12,6 +12,8 @@
 * [LLVM-Clang](http://releases.llvm.org/download.html)
 * [Visual Studio Code](https://code.visualstudio.com/Download)
 * [Visual Studio](https://www.visualstudio.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community)
+* [WinSCP](https://winscp.net/eng/download.php)
+* [PuTTY](https://winscp.net/eng/downloads.php#putty)
 * Ubuntu on Windows in Microsoft Store
 ## Node.JS
 ```bash
