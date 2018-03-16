@@ -21,7 +21,7 @@
 nvm node_mirror https://npm.taobao.org/mirrors/node/
 nvm npm_mirror https://npm.taobao.org/mirrors/npm/
 nvm install latest
-npm --add-python-to-path --python_mirror=https://npm.taobao.org/mirrors/python/ install --global --production windows-build-tools
+npm --add-python-to-path --python_mirror=https://npm.taobao.org/mirrors/python/ --vs2017 install --global --production windows-build-tools
 # Ubuntu
 uname -sr # 查看内核
 cat /etc/issue # 查看发行版本
