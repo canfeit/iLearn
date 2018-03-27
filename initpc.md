@@ -14,6 +14,7 @@
 * [Visual Studio](https://www.visualstudio.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community)
 * [WinSCP](https://winscp.net/eng/download.php)
 * [PuTTY](https://winscp.net/eng/downloads.php#putty)
+* [Python](https://www.python.org/downloads/)
 * Ubuntu on Windows in Microsoft Store
 ## Node.JS
 ```bash
@@ -94,4 +95,8 @@ rustup show
 ```
 ```bash
 rustup component add rustfmt-preview
+```
+## Python
+```bash
+pip install pipenv
 ```
