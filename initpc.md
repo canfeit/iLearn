@@ -104,5 +104,8 @@ conda config --set show_channel_urls yes
 conda update conda
 conda create -n testapp python=3.6
 activate testapp
+conda info -e
+conda search --full --name python
+conda install -n testapp appium-python-client
 pip install pipenv
 ```
