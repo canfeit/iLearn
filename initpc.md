@@ -14,7 +14,7 @@
 * [Visual Studio](https://www.visualstudio.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community)
 * [WinSCP](https://winscp.net/eng/download.php)
 * [PuTTY](https://winscp.net/eng/downloads.php#putty)
-* [Python](https://www.python.org/downloads/)
+* [Python](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 * Ubuntu on Windows in Microsoft Store
 ## Node.JS
 ```bash
@@ -98,5 +98,11 @@ rustup component add rustfmt-preview
 ```
 ## Python
 ```bash
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+conda update conda
+conda create -n testapp python=3.6
+activate testapp
 pip install pipenv
 ```
