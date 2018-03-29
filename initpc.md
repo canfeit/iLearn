@@ -104,14 +104,13 @@ conda config --set show_channel_urls yes
 conda update conda
 # 创建python环境
 conda create -n py2 python=2
-activate py2
+conda activate py2
 python --version
-conda install pipenv
+conda deactive
 
-conda create -n py3 pipenv python=3
-activate py3
+conda create -n py3 python=3
+conda activate py3
 python --version
-pip install appium-python-client
-conda install -n py3 appium-python-client
+pip install pipenv
 conda info -e
 ```
