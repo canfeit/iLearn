@@ -111,6 +111,8 @@ conda deactive
 conda create -n py3 python=3
 conda activate py3
 python --version
-pip install pipenv
+conda deactive
 conda info -e
+# pipenv与conda不兼容
+pip install pipenv
 ```
