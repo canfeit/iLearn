@@ -102,10 +102,16 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/f
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --set show_channel_urls yes
 conda update conda
-conda create -n testapp python=3.6
-activate testapp
+# 创建python环境
+conda create -n py2 python=2
+activate py2
+python --version
+conda install pipenv
+
+conda create -n py3 pipenv python=3
+activate py3
+python --version
+pip install appium-python-client
+conda install -n py3 appium-python-client
 conda info -e
-conda search --full --name python
-conda install -n testapp appium-python-client
-pip install pipenv
 ```
