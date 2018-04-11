@@ -26,12 +26,12 @@ conda update conda
 conda create -n py2 python=2
 conda activate py2
 python --version
-conda deactive
+conda deactivate
 
 conda create -n py3 python=3
 conda activate py3
 python --version
-conda deactive
+conda deactivate
 conda info -e
 # pipenv与conda不兼容
 pip install pipenv
