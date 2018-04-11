@@ -16,6 +16,26 @@
 * [PuTTY](https://winscp.net/eng/downloads.php#putty)
 * [Python](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 * Ubuntu on Windows in Microsoft Store
+## Python
+```bash
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+conda update conda
+# 创建python环境
+conda create -n py2 python=2
+conda activate py2
+python --version
+conda deactive
+
+conda create -n py3 python=3
+conda activate py3
+python --version
+conda deactive
+conda info -e
+# pipenv与conda不兼容
+pip install pipenv
+```
 ## Node.JS
 ```bash
 # Windows
@@ -95,24 +115,4 @@ rustup show
 ```
 ```bash
 rustup component add rustfmt-preview
-```
-## Python
-```bash
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-conda config --set show_channel_urls yes
-conda update conda
-# 创建python环境
-conda create -n py2 python=2
-conda activate py2
-python --version
-conda deactive
-
-conda create -n py3 python=3
-conda activate py3
-python --version
-conda deactive
-conda info -e
-# pipenv与conda不兼容
-pip install pipenv
 ```
