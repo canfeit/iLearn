@@ -1,6 +1,11 @@
+# initpc
+
 ## 资源下载
+
 * [lantern-win.exe](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
+
   [lantern-mac.dmg](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
+
 * [Chrome dev](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
 * [Git](https://git-scm.com/downloads)
 * [NVM](https://github.com/creationix/nvm) [nvm-win](https://github.com/coreybutler/nvm-windows)
@@ -18,6 +23,7 @@
 * Ubuntu on Windows in Microsoft Store
 
 ## Python
+
 ```bash
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
@@ -39,6 +45,7 @@ pip install pipenv
 ```
 
 ## Node.JS
+
 ```bash
 # Windows
 nvm node_mirror https://npm.taobao.org/mirrors/node/
@@ -91,24 +98,26 @@ node-gyp install --dist-url=https://npm.taobao.org/mirrors/node
 ```
 
 ## Rust
+
 * 配置 rustup 中国镜像源
-```bash
-# 环境变量
-export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
-export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
-```
+
+  ```bash
+  # 环境变量
+  export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+  export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+  ```
+
 * [rustup.exe](https://win.rustup.rs/)
 * rustup.sh `curl https://sh.rustup.rs -sSf | sh`
 * 配置 Rust Crates 镜像
-```
-vi $HOME/.cargo/config
 
-[source.crates-io]
-registry = "https://github.com/rust-lang/crates.io-index"
-replace-with = 'ustc'
-[source.ustc]
-registry = "git://mirrors.ustc.edu.cn/crates.io-index"
-```
+  \`\`\`
+
+  vi $HOME/.cargo/config
+
+\[source.crates-io\] registry = "[https://github.com/rust-lang/crates.io-index](https://github.com/rust-lang/crates.io-index)" replace-with = 'ustc' \[source.ustc\] registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+```text
 * 添加 nightly
 ```bash
 rustup install nightly
@@ -116,6 +125,8 @@ rustup default nightly
 rustup update
 rustup show
 ```
+
 ```bash
 rustup component add rustfmt-preview
 ```
+
