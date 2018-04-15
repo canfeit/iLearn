@@ -1,4 +1,4 @@
-# swagger-codegen
+# swagger codegen
 
 * [codegen](https://oss.sonatype.org/content/repositories/snapshots/io/swagger/swagger-codegen-cli/)
 
