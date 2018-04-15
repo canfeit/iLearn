@@ -16,7 +16,6 @@
 * [PuTTY](https://winscp.net/eng/downloads.php#putty)
 * [Python](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 * Ubuntu on Windows in Microsoft Store
-
 ## Python
 ```bash
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
