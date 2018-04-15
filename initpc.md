@@ -16,6 +16,7 @@
 * [PuTTY](https://winscp.net/eng/downloads.php#putty)
 * [Python](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 * Ubuntu on Windows in Microsoft Store
+
 ## Python
 ```bash
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
@@ -36,6 +37,7 @@ conda info -e
 # pipenv与conda不兼容
 pip install pipenv
 ```
+
 ## Node.JS
 ```bash
 # Windows
@@ -87,7 +89,8 @@ yarn global add cnpm
 yarn global add node-gyp
 node-gyp install --dist-url=https://npm.taobao.org/mirrors/node
 ```
-## Rust Lang
+
+## Rust
 * 配置 rustup 中国镜像源
 ```bash
 # 环境变量
