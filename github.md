@@ -1,4 +1,4 @@
-﻿## commit 规范
+## commit 规范
 ```
 <type>:空格<subject>
 // 空一行
