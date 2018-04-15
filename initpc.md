@@ -1,4 +1,4 @@
-##资源下载
+## 资源下载
 * [lantern-win.exe](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
   [lantern-mac.dmg](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 * [Chrome dev](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
