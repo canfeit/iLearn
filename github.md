@@ -1,4 +1,4 @@
-# github
+# git
 
 ## commit 规范
 

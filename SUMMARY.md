@@ -2,7 +2,7 @@
 
 * [ilearn](README.md)
 * [initpc](initpc.md)
-* [github](github.md)
+* [git](github.md)
 * [swagger-codegen](swagger-codegen.md)
 * [技术梯队](ji-shu-ti-dui.md)
 * [pg](pg.md)
