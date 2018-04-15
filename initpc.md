@@ -1,3 +1,4 @@
+##资源下载
 * [lantern-win.exe](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
   [lantern-mac.dmg](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 * [Chrome dev](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
@@ -8,7 +9,6 @@
 * [TIM](http://office.qq.com/download.html)
 * [WeChat](https://weixin.qq.com)
 * [MiCloud](https://i.mi.com/static2?filename=MicloudWebStatic/res/home/mi-lab.htm&locale=zh_CN#3)
-* [GitBook](http://downloads.editor.gitbook.com)
 * [LLVM-Clang](http://releases.llvm.org/download.html)
 * [Visual Studio Code](https://code.visualstudio.com/Download)
 * [Visual Studio](https://www.visualstudio.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community)
@@ -16,6 +16,7 @@
 * [PuTTY](https://winscp.net/eng/downloads.php#putty)
 * [Python](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 * Ubuntu on Windows in Microsoft Store
+
 ## Python
 ```bash
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
