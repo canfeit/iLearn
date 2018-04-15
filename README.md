@@ -2,14 +2,14 @@
 description: 个人学习笔记
 ---
 
-# ilearn
+# iLearn
 
-个人学习笔记.
+开发笔记整理集合.
 
-* [目录](https://canfeit.github.io/in-my-Hometown/SUMMARY)
-* [GitBook](https://canfei.gitbook.io/in-my-hometown/)
-* [GitHub](https://github.com/canfeit/in-my-Hometown)
-* [码云](https://gitee.com/canfeit/in-my-Hometown/blob/master/SUMMARY.md)
+* [目录](https://canfeit.github.io/ilearn/SUMMARY)
+* [GitBook](https://canfei.gitbook.io/ilearn/)
+* [GitHub](https://github.com/canfeit/ilearn)
+* [码云](https://gitee.com/canfeit/ilearn/blob/master/SUMMARY.md)
 
 
 
