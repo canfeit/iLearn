@@ -53,7 +53,7 @@ pip install pipenv
 nvm node_mirror https://npm.taobao.org/mirrors/node/
 nvm npm_mirror https://npm.taobao.org/mirrors/npm/
 nvm install latest
-npm --add-python-to-path --python_mirror=https://npm.taobao.org/mirrors/python/ --vs2017 install --global --production windows-build-tools
+# npm --add-python-to-path --python_mirror=https://npm.taobao.org/mirrors/python/ --vs2017 install --global --production windows-build-tools
 # Ubuntu
 uname -sr # 查看内核
 cat /etc/issue # 查看发行版本
@@ -88,7 +88,7 @@ sudo apt-get upgrade
 sudo do-release-upgrade
 echo 'export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node' >> ~/.bashrc
 nvm install node
-
+# Node.js 配置
 npm config set registry https://registry.npm.taobao.org
 npm i -g yarn
 yarn global bin的输出加入path环境变量
