@@ -3,7 +3,7 @@
 * process.execPath：执行文件安装路径
 * process.cwd()：执行文件启动路径，child_process.fork，fs等使用的相对路径。
 * process.resourcesPath：electron应用，资源文件路径
-## Worker
-* 渲染进程
-## child_process.fork
-* 主进程和渲染进程
+## Web Worker子线程
+* 渲染进程中,有跨域问题
+## child_process.fork子进程
+* 主进程和渲染进程中
