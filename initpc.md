@@ -18,6 +18,7 @@
 * [VS Code](https://code.visualstudio.com/Download)
 * [Visual Studio](https://www.visualstudio.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community)
 * [Android Studio](https://developer.android.com/studio/index.html?hl=zh-cn)
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 * [Android NDK](https://developer.android.com/ndk/downloads/index.html)
 * [WinSCP](https://winscp.net/eng/download.php)
 * [PuTTY](https://winscp.net/eng/downloads.php#putty)
