@@ -7,14 +7,11 @@
   [lantern-mac.dmg](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 
 * [Chrome dev](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
-* [Git](https://git-scm.com/downloads)
+* [GitHub Desktop](https://desktop.github.com/)
 * [NVM](https://github.com/creationix/nvm) [nvm-win](https://github.com/coreybutler/nvm-windows)
-* [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [360 Driver.exe](https://dl.360safe.com/drvmgr/360DrvMgrInstaller_beta.exe)
 * [TIM](http://office.qq.com/download.html)
 * [WeChat](https://weixin.qq.com)
 * [MiCloud](https://i.mi.com/static2?filename=MicloudWebStatic/res/home/mi-lab.htm&locale=zh_CN#3)
-* [LLVM-Clang](http://releases.llvm.org/download.html)
 * [VS Code](https://code.visualstudio.com/Download)
 * [Visual Studio](https://www.visualstudio.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community)
 * [Android Studio](https://developer.android.com/studio/index.html?hl=zh-cn)
@@ -24,7 +21,11 @@
 * [PuTTY](https://winscp.net/eng/downloads.php#putty)
 * [Python](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 * Ubuntu on Windows in Microsoft Store
-
+* [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [win10+/360 Driver.exe](https://dl.360safe.com/drvmgr/360DrvMgrInstaller_beta.exe)
+* [Git](https://git-scm.com/downloads)
+* [LLVM-Clang](http://releases.llvm.org/download.html)
+* [Visual C++ Build Tools](https://www.microsoft.com/zh-CN/download/details.aspx?id=48159)
 ## Python
 
 ```bash
