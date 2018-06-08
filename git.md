@@ -94,3 +94,18 @@ Issue #1, #2, #3
   git push origin --delete tag v1
   ```
 
+* 子仓库
+ ```bash
+ # 添加子模块
+ git submodule add git@github.com:canfeit/appium-uiautomator2-server.git static/uiautomator2
+ git submodule add git@github.com:canfeit/minicap.git static/minicap
+ git submodule add git@github.com:canfeit/minitouch.git static/minitouch
+ # clone 仓库，包含子模块
+ git clone --recursive git@github.com:canfeit/testwa.git
+ # 等同于
+ git clone git@github.com:canfeit/testwa.git
+ git submodule update --init --recursive
+ # 更新子模块
+ git submodule update --remote --recursive --merge
+ git push --recurse-submodules=on-demand
+ ```
