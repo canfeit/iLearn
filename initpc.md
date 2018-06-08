@@ -30,6 +30,7 @@
 * on mac
 ```bash
 echo 'export PATH="/Users/wuwei/android-ndk:$PATH"' >>~/.bash_profile
+brew install gradle
 ```
 * on linux
 ```bash
