@@ -26,6 +26,15 @@
 * [Git](https://git-scm.com/downloads)
 * [LLVM-Clang](http://releases.llvm.org/download.html)
 * [Visual C++ Build Tools](https://www.microsoft.com/zh-CN/download/details.aspx?id=48159)
+## android-ndk
+* on mac
+```bash
+echo 'export PATH="/Users/wuwei/android-ndk:$PATH"' >>~/.bash_profile
+```
+* on linux
+```bash
+echo 'export PATH="/Users/wuwei/android-ndk:$PATH"' >>~/.bashrc
+```
 ## Python
 
 ```bash
