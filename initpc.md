@@ -124,14 +124,15 @@ node-gyp install --dist-url=https://npm.taobao.org/mirrors/node
 * [rustup.exe](https://win.rustup.rs/)
 * rustup.sh `curl https://sh.rustup.rs -sSf | sh`
 * 配置 Rust Crates 镜像
-
-  \`\`\`
-
+```
   vi $HOME/.cargo/config
 
-\[source.crates-io\] registry = "[https://github.com/rust-lang/crates.io-index](https://github.com/rust-lang/crates.io-index)" replace-with = 'ustc' \[source.ustc\] registry = "git://mirrors.ustc.edu.cn/crates.io-index"
-
-```text
+[source.crates-io]
+registry = "[https://github.com/rust-lang/crates.io-index](https://github.com/rust-lang/crates.io-index)"
+replace-with = 'ustc'
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+```
 * 添加 nightly
 ```bash
 rustup install nightly
