@@ -7,3 +7,6 @@
 * 渲染进程中,有跨域问题
 ## child_process.fork子进程
 * 主进程和渲染进程中
+## 通信
+* 主进程与渲染进程：异步：ipcMain.on/ipcRenderer.send,同步：remote.require
+* 渲染进程间：事件通信：webContents.send，ipcRenderer.sendTo，数据共享：require('electron').remote.getGlobal，Storage API，IndexedDB
