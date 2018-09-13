@@ -48,7 +48,7 @@ Issue #1, #2, #3
 
 ## Git 操作
 
-* Merge&Pull requests
+- Merge&Pull requests
 
   ```bash
   # fork
@@ -75,37 +75,39 @@ Issue #1, #2, #3
   # 向源仓库推送更新:在 github.com 发起 pull request
   ```
 
-* 删除本地分支 `git branch -D 分支名`
-* 删除远程分支 `git push origin :分支名`
-* 撤销所有未暂存修改 `git checkout .`
-* 撤销所有已暂存修改 `git reset --hard`
-* 清理未被git管理的文件 `git clean -xdf`
-* Release
+- 删除本地分支 `git branch -D 分支名`
+- 删除远程分支 `git push origin :分支名`
+- 撤销所有未暂存修改 `git checkout .`
+- 撤销所有已暂存修改 `git reset --hard`
+- 清理未被 git 管理的文件 `git clean -xdf`
+- 丢弃上一次提交 `git reset --hard HEAD~1`
+- Release
 
   ```bash
   git tag -a v1 -m 'version 1'
   git push origin --tags
   ```
 
-* 删除标签
+- 删除标签
 
   ```bash
   git tag -d $(git tag)
   git push origin --delete tag v1
   ```
 
-* 子仓库
- ```bash
- # 添加子模块
- git submodule add git@github.com:canfeit/appium-uiautomator2-server.git static/uiautomator2
- git submodule add git@github.com:canfeit/minicap.git static/minicap
- git submodule add git@github.com:canfeit/minitouch.git static/minitouch
- # clone 仓库，包含子模块
- git clone --recursive git@github.com:canfeit/testwa.git
- # 等同于
- git clone git@github.com:canfeit/testwa.git
- git submodule update --init --recursive
- # 更新子模块
- git submodule update --remote --recursive --merge
- git push --recurse-submodules=on-demand
- ```
+- 子仓库
+
+```bash
+# 添加子模块
+git submodule add git@github.com:canfeit/appium-uiautomator2-server.git static/uiautomator2
+git submodule add git@github.com:canfeit/minicap.git static/minicap
+git submodule add git@github.com:canfeit/minitouch.git static/minitouch
+# clone 仓库，包含子模块
+git clone --recursive git@github.com:canfeit/testwa.git
+# 等同于
+git clone git@github.com:canfeit/testwa.git
+git submodule update --init --recursive
+# 更新子模块
+git submodule update --remote --recursive --merge
+git push --recurse-submodules=on-demand
+```
