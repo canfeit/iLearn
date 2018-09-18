@@ -13,9 +13,10 @@
 
 - 主进程和渲染进程中
 
-## 渲染进程中 child_process 和 process 功能似乎不完整
+## 渲染进程中 child_process 和 process 功能似乎不完整，加 remote 调用？
 
 ## 通信
 
-- 主进程与渲染进程：异步：ipcMain.on/ipcRenderer.send,同步：remote.require
-- 渲染进程间：事件通信：webContents.send，ipcRenderer.sendTo，数据共享：require('electron').remote.getGlobal，Storage API，IndexedDB
+- 主进程与渲染进程：异步：ipcMain.on/ipcRenderer.send,webContents.send,webContents.executeJavaScript 同步：remote.require
+- 渲染进程间：webContents.send，ipcRenderer.sendTo
+- 数据共享：require('electron').remote.getGlobal，Storage API，IndexedDB
