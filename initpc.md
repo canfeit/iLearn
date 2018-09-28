@@ -49,11 +49,6 @@ alias jdk8="export JAVA_HOME=$JAVA_8_HOME" 
 alias py2="conda activate py2"
 alias py3="conda activate"
 alias code="\code-insiders .||\code ."
-alias proxy="export http_proxy=http://127.0.0.1:54818&&export https_proxy=http://127.0.0.1:54818"
-export GH_TOKEN=6dd0b530aee381409756cf6c47234659d0abd2fb
-export github_clientId=d7b249385469cd9d91a1
-export github_secret=6d3b839368ff06b9d1167b8ed394e61c69b284a7
-# export TESTWA_PORTAL_URL=http://192.168.0.143:8008/agent/client
 
 ```
 * on linux
