@@ -31,6 +31,31 @@
 echo 'export PATH="/Users/wuwei/android-ndk:$PATH"' >>~/.bash_profile
 brew install gradle
 ```
+```bash
+# added by Miniconda3 4.5.11 installer
+export PATH="/miniconda3/bin:$PATH"
+export PATH="/android-ndk:$PATH"
+export ANDROID_HOME=/Users/$(whoami)/Library/Android/sdk
+export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+export PATH="$ANDROID_HOME:$ANDROID_HOME/build-tools/28.0.3:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7` 
+export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8` 
+export JAVA_10_HOME=`/usr/libexec/java_home -v 10` 
+export JAVA_HOME=$JAVA_10_HOME 
+alias jdk7="export JAVA_HOME=$JAVA_7_HOME" 
+alias jdk8="export JAVA_HOME=$JAVA_8_HOME" 
+alias py2="conda activate py2"
+alias py3="conda activate"
+alias code="\code-insiders .||\code ."
+alias proxy="export http_proxy=http://127.0.0.1:54818&&export https_proxy=http://127.0.0.1:54818"
+export GH_TOKEN=6dd0b530aee381409756cf6c47234659d0abd2fb
+export github_clientId=d7b249385469cd9d91a1
+export github_secret=6d3b839368ff06b9d1167b8ed394e61c69b284a7
+# export TESTWA_PORTAL_URL=http://192.168.0.143:8008/agent/client
+
+```
 * on linux
 ```bash
 echo 'export PATH="/Users/wuwei/android-ndk:$PATH"' >>~/.bashrc
