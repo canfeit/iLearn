@@ -118,7 +118,9 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo do-release-upgrade
 echo 'export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node' >> ~/.bashrc
-nvm install node
+n latest # 安装node latest
+n-update # 更新 n
+n-uninstall # 卸载 n
 # Node.js 配置
 npm config set registry https://registry.npm.taobao.org
 npm i -g tyarn
