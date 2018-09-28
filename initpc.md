@@ -101,12 +101,12 @@ echo 'export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node' >> ~/.ba
 nvm install node
 # Node.js 配置
 npm config set registry https://registry.npm.taobao.org
-npm i -g yarn
-yarn global bin的输出加入path环境变量
-yarn global add yarn
-npm uninstall -g yarn
-yarn global add cnpm
-yarn global add node-gyp
+npm i -g tyarn
+tyarn global bin的输出加入path环境变量
+tyarn global add tyarn
+npm uninstall -g tyarn
+tyarn global add cnpm
+tyarn global add node-gyp
 node-gyp install --dist-url=https://npm.taobao.org/mirrors/node
 ```
 
