@@ -1,3 +1,14 @@
+## JS
+
+- JavaScript=ECMAScript+DOM API+BOM API
+- Node.js=ECMAScript+操作系统 API+文件系统 API+网络 API+数据库 API
+
+Java 开发
+
+```
+JRE
+```
+
 ## node
 
 ### fs 扩展:fs-extra
