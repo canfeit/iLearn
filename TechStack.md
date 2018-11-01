@@ -3,6 +3,10 @@
 * 移动端
   * 全端[Taro](https://github.com/NervJS/taro)
 * PC端
-  electron+react+antd+umi
+  * electron+react+antd+umi
+* 通用端
+  * https://github.com/Microsoft/react-native-windows
+  * https://github.com/ptmt/react-native-macos
+  * https://github.com/necolas/react-native-web
 * Server端
   * [Strapi](https://github.com/strapi/strapi)
