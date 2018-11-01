@@ -1,7 +1,7 @@
 * 全栈
-  * Python [Django](https://github.com/mbrochh/django-graphql-apollo-react-demo)
+  * [Django](https://github.com/django/django)
 * 移动端
-  * 全端[Taro](https://github.com/NervJS/taro)
+  * [Taro](https://github.com/NervJS/taro)
 * PC端
   * electron+react+antd+umi
 * 通用端
