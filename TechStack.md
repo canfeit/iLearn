@@ -8,5 +8,6 @@
   * https://github.com/Microsoft/react-native-windows
   * https://github.com/ptmt/react-native-macos
   * https://github.com/necolas/react-native-web
+  * https://github.com/quasarframework/quasar
 * Server端
   * [Strapi](https://github.com/strapi/strapi)
