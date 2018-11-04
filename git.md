@@ -72,9 +72,10 @@ Issue #1, #2, #3
   git branch -a
   # 合并源仓库更新
   git merge --no-ff upstream/master
-  # 向源仓库推送更新:在 github.com 发起 pull request
+  # 向源仓库推送·更新:在 github.com 发起 pull request
   ```
 
+- 切换分支 `git checkout 分支名`
 - 删除本地分支 `git branch -D 分支名`
 - 删除远程分支 `git push origin :分支名`
 - 撤销所有未暂存修改 `git checkout .`
