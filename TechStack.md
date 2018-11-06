@@ -1,5 +1,3 @@
-* 全栈
-  * [Django](https://github.com/django/django)
 * 移动端
   * [Taro](https://github.com/NervJS/taro)
 * PC端
