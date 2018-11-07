@@ -66,21 +66,26 @@ pip install pipenv
 nvm node_mirror https://npm.taobao.org/mirrors/node/
 nvm npm_mirror https://npm.taobao.org/mirrors/npm/
 nvm install latest
+nvm root
 # *nix
 uname -sr # 查看内核
 # 帮助文档：https://mirrors.tuna.tsinghua.edu.cn/help/centos/
 # 帮助文档：https://opsx.alibaba.com/mirror
 # 帮助文档：https://mirrors.163.com/
-curl -L https://git.io/n-install | bash
+curl -L https://git.io/n-install | bash #安装路径:$HOME/n/bin
 . ~/.bash_profile
 n latest # 安装node latest
+n bin latest
 n-update # 更新 n
 n-uninstall # 卸载 n
 # Node.js 配置
 npm config set registry https://registry.npm.taobao.org
+npm get prefix #输出加入path环境变量
 npm i -g yarn tyarn
+yarn config set registry https://registry.npm.taobao.org
 tyarn global bin的输出加入path环境变量
 tyarn global add cnpm
+cnpm get prefix #输出加入path环境变量
 tyarn global add node-gyp
 node-gyp install --dist-url=https://npm.taobao.org/mirrors/node
 ```
