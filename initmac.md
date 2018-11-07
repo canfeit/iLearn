@@ -71,13 +71,14 @@ uname -sr # 查看内核
 # 帮助文档：https://mirrors.tuna.tsinghua.edu.cn/help/centos/
 # 帮助文档：https://opsx.alibaba.com/mirror
 # 帮助文档：https://mirrors.163.com/
-brew install yarn --without-node
-brew upgrade yarn
-yarn global add n
+curl -L https://git.io/n-install | bash
+. ~/.bash_profile
 n latest # 安装node latest
+n-update # 更新 n
+n-uninstall # 卸载 n
 # Node.js 配置
 npm config set registry https://registry.npm.taobao.org
-yarn global add tyarn
+npm i -g yarn tyarn
 tyarn global bin的输出加入path环境变量
 tyarn global add cnpm
 tyarn global add node-gyp
