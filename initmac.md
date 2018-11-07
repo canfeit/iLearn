@@ -1,39 +1,24 @@
-# initpc
 
 ## 资源下载
 
-* [lantern-win.exe](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
-
-  [lantern-mac.dmg](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
-
+* [lantern](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 * [Chrome dev](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
+* [VS Code](https://code.visualstudio.com/Download)
 * [Android Studio](https://developer.android.com/studio/index.html?hl=zh-cn)
 * [Android NDK](https://developer.android.com/ndk/downloads/index.html)
-* [Visual Studio](https://www.visualstudio.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community)
-* [VS Code](https://code.visualstudio.com/Download)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
-* [Python](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
-* NVM:`curl -L https://git.io/n-install | bash` [nvm-win](https://github.com/coreybutler/nvm-windows)
+* [Python](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/?C=M&O=D)
 * [TIM](http://office.qq.com/download.html)
 * [WeChat](https://weixin.qq.com)
 * [MiCloud](https://i.mi.com/static2?filename=MicloudWebStatic/res/home/mi-lab.htm&locale=zh_CN#3)
-* [WinSCP](https://winscp.net/eng/download.php)
-* [PuTTY](https://winscp.net/eng/downloads.php#putty)
-* Ubuntu on Windows in Microsoft Store
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [win10+/360 Driver.exe](https://dl.360safe.com/drvmgr/360DrvMgrInstaller_beta.exe)
-* [Git](https://git-scm.com/downloads)
 * [LLVM-Clang](http://releases.llvm.org/download.html)
-* [Visual C++ Build Tools](https://www.microsoft.com/zh-CN/download/details.aspx?id=48159)
-## android-ndk
-* on mac
-```bash
-echo 'export PATH="/Users/wuwei/android-ndk:$PATH"' >>~/.bash_profile
-brew install gradle
-```
+* gradle: `brew install gradle`
+## ~/.bash_profile
 ```bash
 # added by Miniconda3 4.5.11 installer
 export PATH="/miniconda3/bin:$PATH"
+export PATH="/mongodb/bin:$PATH"
 export PATH="/android-ndk:$PATH"
 export ANDROID_HOME=/Users/$(whoami)/Library/Android/sdk
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
@@ -49,11 +34,8 @@ alias jdk8="export JAVA_HOME=$JAVA_8_HOME" 
 alias py2="conda activate py2"
 alias py3="conda activate"
 alias code="\code-insiders .||\code ."
+alias proxy="export http_proxy=http://127.0.0.1:52029&&export https_proxy=http://127.0.0.1:52029"
 
-```
-* on linux
-```bash
-echo 'export PATH="/Users/wuwei/android-ndk:$PATH"' >>~/.bashrc
 ```
 ## Python
 
@@ -80,54 +62,30 @@ pip install pipenv
 ## Node.JS
 
 ```bash
-# Windows
+# Win
 nvm node_mirror https://npm.taobao.org/mirrors/node/
 nvm npm_mirror https://npm.taobao.org/mirrors/npm/
 nvm install latest
-# npm --add-python-to-path --python_mirror=https://npm.taobao.org/mirrors/python/ --vs2017 install --global --production windows-build-tools
-# Ubuntu
+nvm root
+# *nix
 uname -sr # 查看内核
-cat /etc/issue # 查看发行版本
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
-sudo vi /etc/apt/sources.list
-
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
-
-deb https://mirrors.aliyun.com/ubuntu/ xenial main restricted
-deb https://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted
-deb https://mirrors.aliyun.com/ubuntu/ xenial universe
-deb https://mirrors.aliyun.com/ubuntu/ xenial-updates universe
-deb https://mirrors.aliyun.com/ubuntu/ xenial multiverse
-deb https://mirrors.aliyun.com/ubuntu/ xenial-updates multiverse
-deb https://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
-deb https://mirrors.aliyun.com/ubuntu/ xenial-security universe
-deb https://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
-
-deb https://mirrors.163.com/ubuntu/ xenial main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ xenial-updates main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ xenial-backports main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ xenial-security main restricted universe multiverse
-# 帮助文档：https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
+# 帮助文档：https://mirrors.tuna.tsinghua.edu.cn/help/centos/
 # 帮助文档：https://opsx.alibaba.com/mirror
-
-sudo apt-get update
-sudo apt-get upgrade
-sudo do-release-upgrade
-echo 'export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node' >> ~/.bashrc
+# 帮助文档：https://mirrors.163.com/
+curl -L https://git.io/n-install | bash #安装路径:$HOME/n/bin
+. ~/.bash_profile
 n latest # 安装node latest
+n bin latest
 n-update # 更新 n
 n-uninstall # 卸载 n
 # Node.js 配置
 npm config set registry https://registry.npm.taobao.org
-npm i -g tyarn
+npm get prefix #输出加入path环境变量
+npm i -g yarn tyarn
+yarn config set registry https://registry.npm.taobao.org
 tyarn global bin的输出加入path环境变量
-tyarn global add tyarn
-npm uninstall -g tyarn
 tyarn global add cnpm
+cnpm get prefix #输出加入path环境变量
 tyarn global add node-gyp
 node-gyp install --dist-url=https://npm.taobao.org/mirrors/node
 ```
@@ -142,7 +100,6 @@ node-gyp install --dist-url=https://npm.taobao.org/mirrors/node
   export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
   ```
 
-* [rustup.exe](https://win.rustup.rs/)
 * rustup.sh `curl https://sh.rustup.rs -sSf | sh`
 * 配置 Rust Crates 镜像
 ```
