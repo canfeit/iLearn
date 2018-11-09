@@ -18,13 +18,22 @@
   - [D3](https://github.com/d3/d3)
   - [three.js](https://github.com/mrdoob/three.js)
   - [Kubernetes](https://github.com/kubernetes/kubernetes)
+  - https://github.com/recharts/recharts
   - https://github.com/webtorrent/webtorrent
   - https://github.com/facebook/immutable-js
+  - https://github.com/facebook/draft-js
+  - https://github.com/facebook/prepack
+  - https://github.com/Microsoft/monaco-editor
   - https://github.com/baconjs/bacon.js
   - https://github.com/Unitech/pm2
   - https://github.com/remy/nodemon
-  - redis
+  - https://github.com/chriso/validator.js
   - rust
+  - tidb
+  - mongo
+  - redis
+  - cassandra
+  - https://github.com/cayleygraph/cayley
 - 测试
   - https://github.com/csbun/thal
   - https://github.com/shoreditch-ops/artillery
