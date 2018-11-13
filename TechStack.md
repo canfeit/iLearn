@@ -42,6 +42,7 @@
   - https://github.com/jprichardson/node-fs-extra
   - https://github.com/AssemblyScript/assemblyscript
   - https://github.com/mosch/react-avatar-editor
+  - https://github.com/tschaub/gh-pages
   - rust
 - 测试
   - https://github.com/csbun/thal
