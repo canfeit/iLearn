@@ -1,23 +1,3 @@
-## Node.js 交流学习
-
-### 第一天
-
-- Node.js 介绍与开发环境搭建
-- 常用开发工具的使用:Yarn/NPM,VS Code,Git/GitHub 等
-- Node.js 基础及相关概念介绍
-- Node.js Package 创建与发布
-
-### 第二天
-
-- Node.js 常用接口介绍和使用:fs/net 等
-- Node.js 常用 Package 介绍和使用
-
-### 第三天
-
-- Web 开发框架 Koa2 相关概念介绍
-- 简单 Web 项目开发
-- 使用 Node.js 进行数据库操作
-
 ## JS
 
 - JavaScript=ECMAScript+DOM API+BOM API

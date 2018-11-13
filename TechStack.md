@@ -11,29 +11,38 @@
 - 移动端
   - [Taro](https://github.com/NervJS/taro) [文档](https://nervjs.github.io/taro/docs/README.html)
   - [Taro UI](https://github.com/NervJS/taro-ui) [文档](https://taro-ui.aotu.io/#/docs/introduction)
-- 其他
+- 数据库
+  - https://github.com/amark/gun
   - [RxDB](https://github.com/pubkey/rxdb) [文档](https://rxdb.info)
-  - [RxJS](https://github.com/ReactiveX/rxjs) [文档](https://rxjs-dev.firebaseapp.com/guide/overview)
+  - tidb
+  - redis
+  - mongo
+  - cassandra
+- 图形
   - [Chart.js](https://github.com/chartjs/Chart.js)
-  - [D3](https://github.com/d3/d3)
-  - [three.js](https://github.com/mrdoob/three.js)
-  - [Kubernetes](https://github.com/kubernetes/kubernetes)
-  - https://github.com/recharts/recharts
+  - [react&d3](https://github.com/recharts/recharts)
+  - https://github.com/WhitestormJS/whs.js
+- 其他
   - https://github.com/webtorrent/webtorrent
+  - https://github.com/node-red/node-red
+  - https://github.com/rwaldron/johnny-five
+  - [Kubernetes](https://github.com/kubernetes/kubernetes)
+  - https://github.com/openresty/openresty
+  - [RxJS](https://github.com/ReactiveX/rxjs) [文档](https://rxjs-dev.firebaseapp.com/guide/overview)
   - https://github.com/facebook/immutable-js
-  - https://github.com/facebook/draft-js
+  - https://github.com/google/closure-compiler
   - https://github.com/facebook/prepack
+  - https://github.com/facebook/draft-js
   - https://github.com/Microsoft/monaco-editor
-  - https://github.com/baconjs/bacon.js
   - https://github.com/Unitech/pm2
   - https://github.com/remy/nodemon
+  - https://github.com/kentcdodds/cross-env
+  - https://github.com/kimmobrunfeldt/concurrently
   - https://github.com/chriso/validator.js
+  - https://github.com/jprichardson/node-fs-extra
+  - https://github.com/AssemblyScript/assemblyscript
+  - https://github.com/mosch/react-avatar-editor
   - rust
-  - tidb
-  - mongo
-  - redis
-  - cassandra
-  - https://github.com/cayleygraph/cayley
 - 测试
   - https://github.com/csbun/thal
   - https://github.com/shoreditch-ops/artillery
