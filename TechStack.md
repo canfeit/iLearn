@@ -43,6 +43,7 @@
   - https://github.com/AssemblyScript/assemblyscript
   - https://github.com/mosch/react-avatar-editor
   - https://github.com/tschaub/gh-pages
+  - https://github.com/zeit/release
   - rust
 - 测试
   - https://github.com/csbun/thal
