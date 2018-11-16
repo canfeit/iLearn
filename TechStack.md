@@ -44,6 +44,7 @@
   - https://github.com/mosch/react-avatar-editor
   - https://github.com/tschaub/gh-pages
   - https://github.com/zeit/release
+  - https://github.com/mholt/caddy
   - rust
 - 测试
   - https://github.com/csbun/thal

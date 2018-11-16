@@ -101,6 +101,7 @@ rustup component add rustfmt-preview
 
 ## 资源下载
 
+- [Homebrew](https://brew.sh/index_zh-cn)
 - [lantern](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 - [Chrome dev](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
 - [VS Code](https://code.visualstudio.com/Download)
@@ -111,21 +112,18 @@ rustup component add rustfmt-preview
 - [TIM](http://office.qq.com/download.html)
 - [WeChat](https://weixin.qq.com)
 - [MiCloud](https://i.mi.com/static2?filename=MicloudWebStatic/res/home/mi-lab.htm&locale=zh_CN#3)
+- [MariaDB](https://mariadb.com/kb/en/library/installing-mariadb-on-macos-using-homebrew/)
 - [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 - [LLVM-Clang](http://releases.llvm.org/download.html)
+- [CMake](https://cmake.org/download/) `sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install`
 - gradle: `brew install gradle`
 
 ## ~/.bash_profile
 
 ```bash
-export PATH="/miniconda3/bin:$PATH"
-export PATH="/mongodb/bin:$PATH"
-export PATH="/android-ndk:$PATH"
 export ANDROID_HOME=/Users/$(whoami)/Library/Android/sdk
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
-export PATH="$ANDROID_HOME:$ANDROID_HOME/build-tools/28.0.3:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
 export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7`
 export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
 export JAVA_10_HOME=`/usr/libexec/java_home -v 10`
@@ -136,4 +134,11 @@ alias py2="conda activate py2"
 alias py3="conda activate"
 alias code="\code-insiders .||\code ."
 alias proxy="export http_proxy=http://127.0.0.1:52029&&export https_proxy=http://127.0.0.1:52029"
+export PATH="$HOME/caddy:$PATH"
+export PATH="$HOME/.deno/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$ANDROID_HOME:$ANDROID_HOME/build-tools/28.0.3:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:$PATH"
+export PATH="/miniconda3/bin:$PATH"
+export PATH="/mongodb/bin:$PATH"
+export PATH="/android-ndk:$PATH"
 ```
