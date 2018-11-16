@@ -1,3 +1,29 @@
+## ~/.bash_profile
+
+```bash
+export ANDROID_HOME=/Users/$(whoami)/Library/Android/sdk
+export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7`
+export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_10_HOME=`/usr/libexec/java_home -v 10`
+export JAVA_HOME=$JAVA_10_HOME
+alias jdk7="export JAVA_HOME=$JAVA_7_HOME"
+alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
+alias py2="conda activate py2"
+alias py3="conda activate"
+alias code="\code-insiders .||\code ."
+alias proxy="export http_proxy=http://127.0.0.1:52029&&export https_proxy=http://127.0.0.1:52029"
+export PATH="$HOME/caddy:$PATH"
+export PATH="$HOME/.deno/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="/miniconda3/bin:$PATH"
+export PATH="/mongodb/bin:$PATH"
+export PATH="/android-ndk:$PATH"
+export PATH=$PATH:/usr/local/mysql/bin
+export PATH="$ANDROID_HOME:$ANDROID_HOME/build-tools/28.0.3:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:$PATH"
+```
+
 ## Python
 
 - conda 配置
@@ -113,32 +139,20 @@ rustup component add rustfmt-preview
 - [WeChat](https://weixin.qq.com)
 - [MiCloud](https://i.mi.com/static2?filename=MicloudWebStatic/res/home/mi-lab.htm&locale=zh_CN#3)
 - [MariaDB](https://mariadb.com/kb/en/library/installing-mariadb-on-macos-using-homebrew/)
+- MySQL:`brew install mysql`
+- redis
+- mongodb
+- cassandra
+- caddy
+- rustup-init
+- opencv
 - [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-- [LLVM-Clang](http://releases.llvm.org/download.html)
-- [CMake](https://cmake.org/download/) `sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install`
-- gradle: `brew install gradle`
-
-## ~/.bash_profile
+- LLVM-Clang:`brew install llvm`
+- CMake:
 
 ```bash
-export ANDROID_HOME=/Users/$(whoami)/Library/Android/sdk
-export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
-export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
-export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7`
-export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
-export JAVA_10_HOME=`/usr/libexec/java_home -v 10`
-export JAVA_HOME=$JAVA_10_HOME
-alias jdk7="export JAVA_HOME=$JAVA_7_HOME"
-alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
-alias py2="conda activate py2"
-alias py3="conda activate"
-alias code="\code-insiders .||\code ."
-alias proxy="export http_proxy=http://127.0.0.1:52029&&export https_proxy=http://127.0.0.1:52029"
-export PATH="$HOME/caddy:$PATH"
-export PATH="$HOME/.deno/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$ANDROID_HOME:$ANDROID_HOME/build-tools/28.0.3:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:$PATH"
-export PATH="/miniconda3/bin:$PATH"
-export PATH="/mongodb/bin:$PATH"
-export PATH="/android-ndk:$PATH"
+brew install cmake
+sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install
 ```
+
+- gradle: `brew install gradle`
