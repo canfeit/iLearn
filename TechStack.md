@@ -47,7 +47,7 @@
   - https://github.com/mholt/caddy
   - rust
 - 测试
-  - ava/chai/Enzyme
+  - jest
   - https://github.com/csbun/thal
   - https://github.com/shoreditch-ops/artillery
   - https://github.com/jhnns/rewire
