@@ -6,6 +6,7 @@
   - [Strapi](https://github.com/strapi/strapi) [文档](https://strapi.io/documentation)
 - 电脑端
   - [Gatsby](https://github.com/gatsbyjs/gatsby) [文档](https://www.gatsbyjs.org/docs/)
+  - [hugo](https://github.com/gohugoio/hugo)
   - [Dva](https://github.com/dvajs/dva) [文档](https://dvajs.com/guide)
   - [Ant](https://github.com/ant-design/ant-design)
     [文档](https://ant.design/docs/react/introduce-cn)
