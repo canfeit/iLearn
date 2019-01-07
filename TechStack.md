@@ -21,7 +21,6 @@
   - tidb
   - redis
   - mongo
-  - cassandra
 - 图形
   - [Chart.js](https://github.com/chartjs/Chart.js)
   - [react&d3](https://github.com/recharts/recharts)
