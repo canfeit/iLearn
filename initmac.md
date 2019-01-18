@@ -129,7 +129,7 @@ rustup component add rustfmt-preview
 
 - [Homebrew](https://brew.sh/index_zh-cn)
 - [lantern](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
-- [Chrome dev](https://www.google.com/chrome/?hl=zh-CN&extra=devchannel)
+- [Chrome dev](https://www.google.com/chrome/dev)
 - [VS Code](https://code.visualstudio.com/Download)
 - [Android Studio](https://developer.android.com/studio/index.html?hl=zh-cn)
 - [Android NDK](https://developer.android.com/ndk/downloads/index.html)
