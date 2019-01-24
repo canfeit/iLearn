@@ -26,6 +26,10 @@
   - [Chart.js](https://github.com/chartjs/Chart.js)
   - [react&d3](https://github.com/recharts/recharts)
   - https://github.com/WhitestormJS/whs.js
+- 解决方案
+  - 静态博客:Gitee Page+Hugo
+  - 动态博客:GitHub Page+[jekyll-strapi](https://blog.strapi.io/building-a-static-website-using-jekyll-and-strapi/)
+  - web项目:Triton+[gatsby-source-strapi](https://blog.strapi.io/building-a-static-website-using-gatsby-and-strapi/)
 - 其他
   - https://github.com/webtorrent/webtorrent
   - https://github.com/node-red/node-red
