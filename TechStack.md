@@ -12,10 +12,6 @@
     [文档](https://ant.design/docs/react/introduce-cn)
     [wiki](https://www.yuque.com/ant-design/course/intro)
     [pro](https://pro.ant.design/docs/getting-started-cn)
-  - [Electron](https://github.com/electron/electron) [文档](https://electronjs.org/docs)
-- 移动端
-  - [Taro](https://github.com/NervJS/taro) [文档](https://nervjs.github.io/taro/docs/README.html)
-  - [Taro UI](https://github.com/NervJS/taro-ui) [文档](https://taro-ui.aotu.io/#/docs/introduction)
 - 数据库
   - https://github.com/amark/gun
   - [RxDB](https://github.com/pubkey/rxdb) [文档](https://rxdb.info)
